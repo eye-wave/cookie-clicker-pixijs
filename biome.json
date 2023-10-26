@@ -1,0 +1,49 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.1.2/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "files": {
+    "ignore": [
+      ".svelte-kit/",
+      ".yarn/",
+      "build/",
+      "db/",
+      "dist/",
+      "jspm_packages/",
+      "node_modules/",
+      "package/",
+      "static/"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentWidth": 2,
+    "indentStyle": "space",
+    "lineWidth": 90,
+    "formatWithErrors": true
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParentheses": "asNeeded",
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "quoteStyle": "double",
+      "semicolons": "asNeeded",
+      "trailingComma": "es5"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "noParameterAssign": "off",
+        "useTemplate": "off"
+      },
+      "suspicious": {
+        "noAssignInExpressions": "off"
+      }
+    }
+  }
+}
